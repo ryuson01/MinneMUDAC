@@ -11,23 +11,27 @@ your local machine for development and testing purposes.
 ### Prerequisites
 Items necessary to run this sofware:
 2. RStudio Server 2022.07.2 Build 576
-3. Packages to install: fastDummies, lubridate, dplyr, randomForest, rpart, caret, .
+3. Packages to install: fastDummies, lubridate, dplyr, randomForest, rpart, and caret.
 
-### Break down into scripts for data cleaning, exploratory analysis, and regression modeling
+### The following scripts broke down tasks for data cleaning, exploratory analysis, and regression modeling.
 1. Script 1. MLB_Script.R uses inputs
-"GameLogs_v2.csv", "OriginalSchedule_v2.csv", "2023_MLBSchedule.csv", and "Minnesota_HomeGames1.csv" and produces outputs "gamelogs_v3.csv",
-"final_gamelogs.csv", "test_data.csv", "train_data.csv", and "ExDate_GameLog_Subset.csv".
+"GameLogs_v2.csv", "OriginalSchedule_v2.csv", "2023_MLBSchedule.csv", and "Minnesota_HomeGames1.csv" 
+and produces outputs
+"gamelogs_v3.csv", "final_gamelogs.csv", "test_data.csv", "train_data.csv", and "ExDate_GameLog_Subset.csv".
 
 2. Script 2. Regression_Script.R uses inputs
-"train_data.csv", "test_data.csv", and produces outputs "rfmodelpred.csv" and "cartTunepred.csv"
+"train_data.csv", "test_data.csv", 
+and produces outputs
+"rfmodelpred.csv" and "cartTunepred.csv".
 
 3. Script 3. Regression2ExDa.R uses inputs
 "exDa_R2.csv", "GameLogs_v2.csv", and "OriginalSchedule_v2.csv"
 
-4. Script 4. Regression.R uses inputs
-"SmallCap2016.csv", "LargeCap2016.csv", "EM2016.csv",
-"SC_stock_list.csv", "LC_stock_list.csv", "EM_stock_list.csv",
-"SC_9915US.csv", "LC_4025US.csv", and "EM_4043.csv"
+4. Script 4. Regression_5years.R uses inputs
+"exDa_R2.csv", "GameLogs_v2.csv", "OriginalSchedule_v2.csv", "2023_MLBSchedule.csv", "Sched23A.csv", "train_data_r2.csv", "test_data_r2.csv" 
+and produces outputs
+"gamelogs_r2.csv", "final_gamelogs_r2.csv", "train_data_r2.csv", "ExDate_GameLog_Subset_r2.csv", "test_data_r2.csv", "Sched23_sub.csv",
+"rfmodelpred_r3.csv", and "rfmodelpred_r3.csv".
 
 5. Script 5. Model-linear distribution.R uses inputs "SmallCap2016.csv",
 "LargeCap2016.csv", "EM2016.csv", "SC_stock_list.csv",
