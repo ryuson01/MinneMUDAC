@@ -49,5 +49,5 @@ Sarah Philips
 Ryan Yuson
 
 ## Acknowledgments
-Acknowledgements to Professor Michael Altemeier within The University of Iowa for assistance in 
-the completion of this projects modeling, exploration, and analysis.
+Acknowledgements to Professor Michael Altemeier within The University of Iowa for guidance in modeling, exploration, and analysis 
+throughout the the duration of this project.
