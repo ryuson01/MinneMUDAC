@@ -10,8 +10,8 @@ your local machine for development and testing purposes.
 
 ### Prerequisites
 Items necessary to run this sofware:
-2. RStudio Server 2022.07.2 Build 576
-3. Packages to install: fastDummies, lubridate, dplyr, randomForest, rpart, and caret.
+1. RStudio Server 2022.07.2 Build 576
+2. Packages to install: fastDummies, lubridate, dplyr, randomForest, rpart, caret
 
 ### The following scripts broke down tasks for data cleaning, exploratory analysis, and regression modeling.
 1. Script 1. MLBscript.R uses inputs
