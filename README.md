@@ -34,38 +34,7 @@ and produces outputs
 and produces outputs
 "gamelogs_r2.csv", "final_gamelogs_r2.csv", "train_data_r2.csv", "ExDate_GameLog_Subset_r2.csv", "test_data_r2.csv", "Sched23_sub.csv", and "rfmodelpred_r3.csv".
 
-5. Script 5. Model-linear distribution.R uses inputs "SmallCap2016.csv",
-"LargeCap2016.csv", "EM2016.csv", "SC_stock_list.csv",
-"LC_stock_list.csv", "EM_stock_list.csv", "SC_9915US.csv",
-"LC_4025US.csv", and "EM_4043.csv"
-
-6. Script 6. Model-Log.R uses inputs "SmallCap2016.csv",
-"LargeCap2016.csv", "EM2016.csv", "SC_stock_list.csv",
-"LC_stock_list.csv", "EM_stock_list.csv", "SC_9915US.csv",
-"LC_4025US.csv", and "EM_4043.csv"
-
-7. Script 7. Model-Exponential.R uses inputs "SmallCap2016.csv",
-"LargeCap2016.csv", "EM2016.csv", "SC_stock_list.csv",
-"LC_stock_list.csv", "EM_stock_list.csv", "SC_9915US.csv",
-"LC_4025US.csv", and "EM_4043.csv"
-
-8. Script 8. Model-sqrt x.R uses inputs "SmallCap2016.csv",
-"LargeCap2016.csv", "EM2016.csv", "SC_stock_list.csv",
-"LC_stock_list.csv", "EM_stock_list.csv", "SC_9915US.csv",
-"LC_4025US.csv", and "EM_4043.csv" to produce
-"LinearErrorbySector.csv"
-
-9. Script 9. Model-sqrt(y) and x.R uses inputs "SmallCap2016.csv",
-"LargeCap2016.csv", "EM2016.csv", "SC_stock_list.csv",
-"LC_stock_list.csv", "EM_stock_list.csv", "SC_9915US.csv",
-"LC_4025US.csv", "EM_4043.csv" to produce output
-"LogErrorBySector.csv"
-
-10. Script 10. Model- Error comparison.R uses inputs and code from 9.
-Model-sqrt(y) and x.R to product output "PredictionErrorbycurve.csv"
-Additional data to upload:
-"LinearErrorbySector.csv" "LogErrorBySector.csv"
-"PredictionErrorbycurve.csv"
+5. Script 5. 
 
 ## Deployment
 This project is not built for deployment.
