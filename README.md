@@ -1,27 +1,19 @@
 # MinneMUDAC 2023
 ## Predicting MLB Home Game Attendance
-Principal Financial Group of Des Moines has provided The University of
-Iowa's Business Analytics Capstone Team 1 with data regarding their stock
-trading in order to gain a better understanding of the costs associated
-with transactions. The company currently receives data based on 10 curves
-from Investment Technology Group (ITG), and estimates transaction costs
-based on a linear regression model the company has created. The
-Transaction Cost Analysis project purpose is to assist PFG in determining
-a more accurate way to estimate stock transaction costs.
+MinneAnalytics is host of the annual Midwest Undergraduate Data Analytics Competition; the scope of this year's data science challenge was centered around MLB home game attendance. The sponsor provided The University of Iowa Business Analytics Capstone Group 03-1 with historical Game Log data and previous/upcoming scheduling information, with primary our primary objective being to build a model predictive of MLB home game attendance and understand what aspects of major league baseball games are truly impactful on attendance.
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on
 your local machine for development and testing purposes.
 1. Download xxx.rar and extract to desktop
-2. Set working directory to extracted folder\Data
+2. Set working directory to folder \Home\ClassData\Marmon 03-1\MLB
 
 ### Prerequisites
-What things you need to run the software
-1. R 3.3.2
-2. RStudio 1.0.135
+Items necessary to run this sofware:
+2. RStudio Server 2022.07.2 Build 576
 3. Packages to install: fastDummies, lubridate, dplyr, randomForest, rpart, caret, .
 
-### Break down into end to end tests
+### Break down into scripts for data cleaning, exploratory analysis, and regression modeling
 1. Script 1. MLB_Script.R uses inputs
 "GameLogs_v2.csv", "OriginalSchedule_v2.csv", "2023_MLBSchedule.csv", and "Minnesota_HomeGames1.csv" and produces outputs "gamelogs_v3.csv",
 "final_gamelogs.csv", "test_data.csv", "train_data.csv", and "ExDate_GameLog_Subset.csv".
@@ -32,7 +24,7 @@ What things you need to run the software
 3. Script 3. Regression2ExDa.R uses inputs
 "exDa_R2.csv", "GameLogs_v2.csv", and "OriginalSchedule_v2.csv"
 
-4. Script 4. Model-compare ITG v PFG model.R uses inputs
+4. Script 4. Regression.R uses inputs
 "SmallCap2016.csv", "LargeCap2016.csv", "EM2016.csv",
 "SC_stock_list.csv", "LC_stock_list.csv", "EM_stock_list.csv",
 "SC_9915US.csv", "LC_4025US.csv", and "EM_4043.csv"
