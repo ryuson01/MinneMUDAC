@@ -43,7 +43,7 @@ and produces outputs
 1. Upload files from Data folder to R-Studio.
 2. Run the MLBscript.R to clean the data and perform a variable importance test. 
 3. Run the Regression_Script.R script to determine which regression models performed the best and run initial regression with the original data. 
-   - Random Forest, all predictors without cross validation produces the lowest MAE. 
+   - Random Forest, all predictors without cross validation produces the lowest MAE and is utilized in the regressions that follow. 
 4. Run the Regression_ExternalData.R script to produce attendance predictions with the data set that includes all fo the original inputs along with stadium capacity, city population, number of professional teams in the city, and season. 
 5. Run the Regression_ExternalData_5years.R script to produce attendance predictions with the same external inputs as the previous regression model, but the model is now only trained on the previous five years of data. 
 6. Run the Regression_ExternalData_DynamicModel.R script to produce attendance predictions for the next Twins home game using the external data along with a column that records the previous home game attendance. 
@@ -56,9 +56,9 @@ This project is not built for deployment.
 Version 1.0
 
 ## Authors
-Beth Tiggelaar
-Katie Zawoyski
-Sarah Philips
+Beth Tiggelaar,
+Katie Zawoyski,
+Sarah Philips, and 
 Ryan Yuson
 
 ## Acknowledgments
