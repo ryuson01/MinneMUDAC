@@ -40,6 +40,7 @@ and produces outputs
 "gamelogs_r2.csv", "final_gamelogs_r2.csv", "train_data_r2.csv", "ExDate_GameLog_Subset_r2.csv", "test_data_r2.csv", "Sched23_sub.csv", and "rfmodelpred_r3_update.csv"
 
 ## Procedures
+### For Modeling: 
 1. Upload files from Data folder to RStudio.
 2. Run the MLBscript.R to clean the data and perform a variable importance test. 
 3. Run the Regression_Script.R script to determine which regression models performed the best and run initial regression with the original data. 
