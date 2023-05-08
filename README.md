@@ -39,8 +39,7 @@ and produces outputs
 and produces outputs
 "gamelogs_r2.csv", "final_gamelogs_r2.csv", "train_data_r2.csv", "ExDate_GameLog_Subset_r2.csv", "test_data_r2.csv", "Sched23_sub.csv", and "rfmodelpred_r3_update.csv"
 
-## Procedures
-### For Modeling: 
+## Procedure for Modeling: 
 1. Upload files from Data folder to RStudio.
 2. Run the MLBscript.R to clean the data and perform a variable importance test. 
 3. Run the Regression_Script.R script to determine which regression models performed the best and run initial regression with the original data. 
@@ -49,6 +48,13 @@ and produces outputs
 5. Run the Regression_ExternalData_5years.R script to produce attendance predictions with the same external inputs as the previous regression model, but the model is now only trained on the previous five years of data. 
 6. Run the Regression_ExternalData_DynamicModel.R script to produce attendance predictions for the next Twins home game using the external data along with a column that records the previous home game attendance. 
    - The sched23_subset_r3_rev_update.csv file will need to be updated as more games are played. 
+
+## Exploratory Analysis and Visualizations:
+- Created visualizations from the GameLogs_v2.csv in Tableau to look at the historical trends of attendance in the league and examine the attendance levels of the Twins.
+   - MLB_Inital_Exploration.twbx includes Day and Night analysis for days of the week and months, average home game attendance for each team, average attendance at Target Field for every visiting team, and the Minnesota Twins' average attendance per month
+- Loaded the GameLogs_ExternalData.xlsx in Tableau to create graphs for family cost to attend a game and stadium location. 
+   - Located in the FanCostIndex.twbx and HomeTeamCity.twbx files
+- *Something about promotions data and dashboard*
    
 ## Deployment
 This project is not built for deployment.
