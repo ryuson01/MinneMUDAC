@@ -4,10 +4,16 @@ MinneAnalytics is host of the annual Midwest Undergraduate Data Analytics Compet
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on
-your local machine for development and testing purposes.
-1. Download xxx.rar and extract to desktop
-2. Set working directory to folder \Home\ClassData\Marmon 03-1\MLB
+your local machine for development and testing purposes. There are two available options from which to begin.
 
+When accessing data via Teams fileshare:
+1. Download GameLogs_v2.csv, OriginalSchedule_v2.csv, and 2023_MLBSchedule.csv 
+   a. \Documents\General\Process\Data
+   
+When accessing data via Interactive Data Analytics Service (IDAS)
+1. Set working directory to shared class folder; necessary files present in this directory
+   a. \Home\ClassData\Marmon 03-1\MLB
+ 
 ### Prerequisites
 Items necessary to run this sofware:
 1. RStudio Server 2022.07.2 Build 576
