@@ -62,5 +62,5 @@ Sarah Philips, and
 Ryan Yuson
 
 ## Acknowledgments
-Acknowledgements to Professor Michael Altemeier within The University of Iowa for guidance in modeling, exploration, and analysis 
-throughout the the duration of this project.
+Acknowledgements to Professor Michael Altemeier at The University of Iowa for his guidance in data exploration, analysis, and model refinement
+throughout the duration of this project. Additional acknowledgements to MinneMUDAC for providing the data and framework of challenge specifications.
