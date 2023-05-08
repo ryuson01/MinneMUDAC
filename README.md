@@ -44,7 +44,8 @@ and produces outputs
    - MLB_Inital_Exploration.twbx includes day and night analysis for days of the week and months, average home game attendance for each team, average attendance at Target Field for every visiting team, and the Minnesota Twins' average attendance per month
 - Loaded the GameLogs_ExternalData.xlsx in Tableau to create graphs for family cost to attend a game and stadium location. 
    - Located in the FanCostIndex.twbx and HomeTeamCity.twbx files
-- *Something about promotions data and dashboard*
+- MLB_promotions.twbx and promotional_insight.twbx include visualizations pertaining to promotional scheduling information.
+   - Contains relevant insight derived from giveaway items and their giveaway criteria, pre and post game events, game themes, and concession deals.
 
 ## Procedure for Modeling: 
 1. Upload files from Data folder into RStudio.
