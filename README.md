@@ -1,4 +1,4 @@
-# MinneMUDAC 2023
+# MinneMUDAC 2023 ⚾
 ## Predicting MLB Home Game Attendance
 MinneAnalytics is host of the annual Midwest Undergraduate Data Analytics Competition; the scope of this year's data science challenge was centered around MLB home game attendance. The sponsor provided The University of Iowa Business Analytics Capstone Group 03-1 with historical Game Log data and previous/upcoming scheduling information, with primary our primary objective being to build a model predictive of MLB home game attendance and understand what aspects of major league baseball games are truly impactful on attendance.
 
