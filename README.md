@@ -51,7 +51,7 @@ and produces outputs
 
 ## Exploratory Analysis and Visualizations:
 - Created visualizations from the GameLogs_v2.csv in Tableau to look at the historical trends of attendance in the league and examine the attendance levels of the Twins.
-   - MLB_Inital_Exploration.twbx includes Day and Night analysis for days of the week and months, average home game attendance for each team, average attendance at Target Field for every visiting team, and the Minnesota Twins' average attendance per month
+   - MLB_Inital_Exploration.twbx includes day and night analysis for days of the week and months, average home game attendance for each team, average attendance at Target Field for every visiting team, and the Minnesota Twins' average attendance per month
 - Loaded the GameLogs_ExternalData.xlsx in Tableau to create graphs for family cost to attend a game and stadium location. 
    - Located in the FanCostIndex.twbx and HomeTeamCity.twbx files
 - *Something about promotions data and dashboard*
